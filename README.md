@@ -1,6 +1,6 @@
 # Getting data from GitHub API
 
-### Exercise for recruitment purposes
+##### Exercise for recruitment purposes
 
 
 ## Table of contents
@@ -9,7 +9,7 @@
 * [Setup](#setup)
 
 
-##### General info
+### General info
 This task requires to list all github repositories, which are not forks. Informations are presented as JSON. Informations shows:
 
 Repository Name
@@ -19,13 +19,13 @@ For each branch it’s name and last commit sha
 The code, also throws an error 404 when user is not found.
 
 
-##### Technologies
+### Technologies
 Project uses:
  * Java 21
  * Spring Boot 3.3.2
 
 
-##### Setup
+### Setup
 First, you need to add your GitHub token in ```src/main/java/configuration/GitHubConfig.java```, to ```private static final String GITHUB_TOKEN```. If you don't, you get an error.
 
 To run a project you need to lunch ```src/main/java/Application.java``` with Java 21.
