@@ -26,5 +26,6 @@ Project uses:
 
 
 ##### Setup
+First, you need to add your GitHub token in ```src/main/java/configuration/GitHubConfig.java```, to ```private static final String GITHUB_TOKEN```. If you don't, you get an error.
 To run a project you need to lunch ```src/main/java/Application.java``` with Java 21.
 Then, you need to type ```http://localhost:8080/git/username``` where username is a github user that you want to search for, ex.: ```http://localhost:8080/git/tymoteuszmh```.
